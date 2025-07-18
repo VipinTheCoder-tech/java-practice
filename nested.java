@@ -18,7 +18,7 @@ public class nested {
                 if(result<50){
                System.out.println("Failed");
                 }else{
-                    System.out.println("Passed but Failed");
+                    System.out.println("Passed but third division ");
                 }
                 System.out.println("Try Next Time ");
             }

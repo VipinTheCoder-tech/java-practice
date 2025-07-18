@@ -22,7 +22,8 @@ public class resultif {
         }
         else{
             System.out.println("Failed " );
+            System.out.println("Sorry!Try Next Time ");
         }
-        System.out.println("Sorry!Try Next Time ");
+        
     }
 }

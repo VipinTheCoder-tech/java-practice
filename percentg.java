@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class percentg {
+public class cwh_{
    public static void main(String[]args){
     int a,b,c;
     System.out.println("Enter the Marks of mathemeatics");

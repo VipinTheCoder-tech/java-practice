@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class nestedsecond {
-    public static void main(String[]arg)
+    public static void main(String[]args)
 {
     int num1,num2,num3;
     System.out.println("enter any Random Value in it ");
@@ -13,7 +13,7 @@ public class nestedsecond {
 
         if(num1>num3)
         {
-System.out.println("Maximum number"+num1);
+System.out.println("Maximum number"+num1);                  
         }
         else{
 System.out.println("Maximum number"+num3);
