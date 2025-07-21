@@ -12,5 +12,5 @@ public class A {
     a=s.nextInt();
     b=s.nextInt();
     c=a+b;
-System.out.print("Sum of two numbers: "+c);}
+System.out.print("Sum of two  numbers: "+c);}
     }
