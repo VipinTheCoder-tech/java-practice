@@ -4,22 +4,27 @@ public class while_looppp {
     public static void main(String []args){
 
         int num;
-        System.out.println("enter the number here ");
+    
         Scanner c=new Scanner(System.in);
-        num=c.nextInt();
-        while(num>=0){
-            if(num%2==0){
-          System.out.println("even number");
-            
-            }
-            else{
-                System.out.println("odd number");
-            
+    
+        while (true){
+System.out.println("Enter the number (negative to exit):");
+num =c.nextInt();
+if (num<=0){
+    System.out.println("program is ended ");
+    break; // exit the loop 
 
-            }
-            System.out.println("ended");
-            break;
+}
+if (num%2==0){
+    System.out.println("even Number");
 
+}
+else {
+    System.out.println("odd number");
+
+}
         }
+        c.close();//close scanner
+        
     }
 }

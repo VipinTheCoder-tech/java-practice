@@ -7,7 +7,7 @@ public class while_looppi {
         Scanner n=new Scanner(System.in);
         num=n.nextInt();
         while(num>=0)
-{
+{        
         if(num%2==0){
           System.out.print("even Number");
           break;
